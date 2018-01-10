@@ -1,0 +1,175 @@
+a {
+    text-decoration: none;
+    color: #aacc44;
+}
+
+.content {
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    bottom: 120px;
+}
+
+.content-scroll {
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+.footer {
+    /*background-color: #aacc44;*/
+    z-index: 300;
+    width: 45%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid #555555;
+    border-right: 2px solid #555555;
+}
+
+.footer-left {
+    position: absolute;
+    background-color: transparent;
+    z-index: 400;
+    width: 22.5%;
+    height: 100%;
+    margin-left: 0;
+    border-right: 1px solid #555555;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-right {
+    position: absolute;
+    background-color: transparent;
+    z-index: 400;
+    height: 100%;
+    width: 22.5%;
+    left: 50%;
+    border-left: 2px solid #555555;
+    text-align: center;
+    font-size: 14px;
+}
+
+.technicien {
+    position: absolute;
+    background-color: #aacc44;
+    top: 20%;
+    bottom: 40%;
+    left: 30%;
+    right: 30%;
+}
+
+.assistance img {
+    border: 2px solid #555555;
+}
+
+.assistance img:hover {
+    border: 2px solid #aacc44;
+}
+
+.url-support {
+    color: #cc0022;
+}
+
+.url-support:hover {
+    color: #aacc44;
+}
+
+.form-contact table tr td input {
+    font-weight: bold;
+}
+
+.form-contact table tr td textarea {
+    font-weight: bold;
+}
+
+.form-contact table tr td label:hover {
+    cursor: pointer;
+}
+
+/*-----------------------------DivBox css---------------------------*/
+/*
+#divbox a{
+    margin: 0;
+    padding:0;
+}
+#divbox{
+    background:  #000000 ;
+    opacity: .5;
+    margin: 0;
+    padding: 0;
+
+}
+#divbox_data{
+    margin: 0;
+    padding: 0;
+}
+#divbox_frame{ margin: 0; padding: 0;}
+
+#divbox_frame{
+    background: #fff url(../images/divbox/loader.gif) no-repeat center center;
+    border: 5px solid #eee;
+}
+
+#divbox_frame.white	{
+    background: white none;
+}
+
+#divbox_frame .closed{
+    position: absolute;
+    z-index: 1006;
+    background:url(../images/divbox/close.png) no-repeat center center;
+    width: 24px;
+    height: 24px;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+}
+
+#divbox_frame .prev,#divbox_frame .next,#divbox_frame .number	{
+    position: absolute;
+    z-index: 1006;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#divbox_frame .prev,#divbox_frame .prevDisabled	{
+    background:url(../images/divbox/left.png) no-repeat top center;
+    left: 0;
+}
+
+#divbox_frame .prevDisabled	{
+    background:url(../images/divbox/leftDisabled.png) no-repeat top center;
+}
+#divbox_frame .next,#divbox_frame .nextDisabled{
+    background: url(../images/divbox/right.png) no-repeat top right;
+    right: 2px;
+}
+#divbox_frame .number	{
+    right: 30px;
+    width: 20px;
+}
+#divbox_frame .nextDisabled{
+    background:url(../images/divbox/rightDisabled.png) no-repeat top right;
+}
+
+#divbox_frame .caption	{
+    display: none;
+    background: #ccc;
+    opacity: .5;
+    color: #000;
+    padding: 5px 50px 5px 30px;
+    overflow: hidden;
+}
+#divbox_frame .zoom		{
+    cursor: url(../images/divbox/zoomin.cur), default;
+}
+
+#divbox_ajax		{
+    display: none;
+    width: 400px;
+}
+*/
